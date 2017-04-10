@@ -1,0 +1,105 @@
+.container {
+width: 500px;
+margin: 0 auto;
+}
+
+.accordion_item {
+width: 460px;
+margin: 0 auto;
+text-align: left;
+font-family: "Fira Sans";
+font-size:15px;
+}
+
+.accordion_img {
+margin-bottom: 25px;
+}
+
+img {
+text-align: center;
+width:220px;
+height: auto;
+display: block;
+margin: auto;
+}
+
+ul {
+list-style-type: none;
+}
+
+.accordion_item {
+background-color: #E6E6E6; 
+border-style: none;
+border-radius:20px;
+}
+
+.accordion_item_basics {
+ color:  white;
+ text-decoration: none;
+ background-color:  #E48565;
+ padding: 10px 10px 10px 20px;
+ margin-bottom:0px;
+ border-style: none;
+ border-radius:20px;  
+  
+}
+.accordion_item_functions {
+ color:  black;
+ text-decoration: none;
+ background-color:  #E6E6E6;
+ padding: 10px 10px 10px 20px;
+ margin-bottom:0px;
+ margin-top:5px;
+ border-style: none;
+ border-radius:20px;   
+}
+
+.accordion_item_bugs {
+ color:  white;
+ text-decoration: none;
+ background-color:  #686666;
+ padding: 10px 10px 10px 20px;
+ margin-bottom:0px;
+ margin-top:5px; 
+ border-style: none;
+ border-radius:20px;   
+}
+
+.accordion_item_objects {
+ color:  black;
+ text-decoration: none;
+ background-color:  #F1F1F1;
+ padding: 10px 10px 10px 20px;
+ margin-bottom:0px;
+ margin-top:5px;
+ border-style: none;
+ border-radius:20px;   
+}
+.accordion_item_events {
+ color:  white;
+ text-decoration: none;
+ background-color:  #686666;
+ padding: 10px 10px 10px 20px;
+ margin-bottom:0px;
+ margin-top:5px;
+ border-style: none;
+ border-radius:20px;   
+}
+.accordion_inner {
+padding-left:20px;
+font-weight: lighter;
+margin:0px;
+}
+.accodion_inner_item {
+margin-top:15px;
+}
+h4:after {
+content: "\25BC";
+float: right;
+color: #E48565;
+}
+h4.active:after {
+content:"\25B2";
+float: right;
+color: white;
+}
